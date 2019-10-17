@@ -30,4 +30,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Товары</catalogs>
+  <informationRegisters>InformationRegister.ИндексыВРеквизитах</informationRegisters>
 </mdclass:Configuration>

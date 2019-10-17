@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53fe7d6d-67d0-405e-b747-5dccdd4d4a0c">
+  <producedTypes>
+    <selectionType typeId="c459c8a8-a787-4c81-b11a-d2c62941960f" valueTypeId="51a447ef-706b-4185-92eb-536860aafc22"/>
+    <listType typeId="330c033c-13a0-42cd-9a4d-8c6c80ede701" valueTypeId="f6f800b1-7119-4a46-9c38-ed1dd7566418"/>
+    <managerType typeId="e20ed04d-291c-4266-b32c-fd313efbf6ae" valueTypeId="d26d3385-cea7-4675-b0ba-6493621ee167"/>
+    <recordSetType typeId="44e020d1-eebf-4010-a462-10937ef4ccc6" valueTypeId="a68a5b97-4ebe-45b4-8377-34bf29066e35"/>
+    <recordKeyType typeId="9666db8f-8bf3-4869-9c51-bb6820a6c60c" valueTypeId="dddc8068-a499-438f-8d72-a7a2c219e235"/>
+    <recordType typeId="3ec68950-3ed9-4b7b-93ac-a201db0d69bc" valueTypeId="c1b02ffc-c415-4a46-a20c-c9598ed9dee5"/>
+    <recordManagerType typeId="8a526223-261f-462e-9007-c36a4ee5202b" valueTypeId="9cc5a2d9-a6d1-4528-aef9-a6b440ad6fad"/>
+  </producedTypes>
+  <name>ИндексыВРеквизитах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индексы в реквизитах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3bda277e-2c3a-40f2-a4f6-d9e9217bb7d5">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="1ec5fbc0-4434-4885-8dc4-4cd530a60060">
+    <name>Ресурс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="5143a384-752a-4c56-9edf-197fc43c4656">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cbdd159-e195-4cae-b925-4f866d0f91c4">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="5b8536e3-84c3-4264-9bcf-1e7a14c70b6a">
+    <name>Измерений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b48eecdd-fc7c-4a4a-870c-9baf5b4956c7">
+    <name>Измерений1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерений1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1341c5d4-7f11-4ebf-9606-5fb3820cb860">
+    <name>Измерений2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерений2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
