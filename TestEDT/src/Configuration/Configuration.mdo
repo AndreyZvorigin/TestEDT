@@ -29,6 +29,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.Подписки</commonModules>
+  <eventSubscriptions>EventSubscription.ОбработкаПроверкиЗаполнения</eventSubscriptions>
   <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.Документ</documents>
   <informationRegisters>InformationRegister.ИндексыВРеквизитах</informationRegisters>
 </mdclass:Configuration>
